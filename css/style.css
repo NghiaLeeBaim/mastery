@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------ header ------ */
+.header {
+    margin: auto;
+    width: 90%;
+}
+
+.header .logo {
+    padding: 20px;
+}
+
+.header .logo a {
+    font-size: 36px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.header .logo a i {
+    width: 35px;
+    height: 36px;
+    line-height: 41px;
+    border-radius: 50%;
+    background-color: rgb(3, 34, 69);
+    font-size: 22px;
+    color: rgb(224, 177, 18);
+    display: inline-block;
+}
+
+.header .logo a span {
+    padding-left: 10px;
+    padding-top: 12px;
+    color: rgb(3, 34, 69);
+    font-weight: bold;
+}
+
+.header .menu {
+    margin-left: 35px;
+}
+
+.header .menu a {
+    margin-left: 20px;
+    color: rgb(3, 34, 69);
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+/* ------ body carousel ------ */
+.main_body .carousel img {
+    width: 100%;
+    margin-top: 15px;
+}
+
+/* ------ body baner ------ */
+
+.main_body .baner {
+    padding-top: 30px;
+    padding-bottom: 435px;
+}
+
+.main_body .baner .container {
+    margin: auto;
+    width: 90%;
+}
+
+.main_body .baner .container .intro {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+.main_body .baner .container .intro p {
+    padding: 15px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.main_body .baner .container .intro button {
+    padding: 10px;
+    margin: 15px;
+    background-color: rgb(235, 200, 86);
+    text-align: center;
+    color: rgb(3, 34, 69);
+    border-radius: 5px;
+    border: none;
+    width: 125px;
+    font-weight: 300;
+}
+
+.main_body .baner .container .img {
+    width: 50%;
+    float: right;
+}
+
+.main_body .baner .container .img img {
+    width: 100%;
+
+}
+
+/* ------ body Number ------ */
+
+.main_body .number {
+    background-color: rgb(246, 246, 246);
+    padding: 20px;
+    height: 80px;
+}
+
+.main_body .number .container {
+    margin: auto;
+    width: 90%;
+}
+
+.main_body .number .container .point {
+    float: left;
+    margin: auto;
+    width: 25%;
+}
+
+.main_body .number .container .point .data_number {
+    float: left;
+    width: 15%;
+}
+
+.main_body .number .container .point .data_number p {
+    font-size: 38px;
+    font-weight: 700;
+}
+
+.main_body .number .container .point .data_name {
+    float: left;
+    width: 55%;
+}
+
+.main_body .number .container .point .data_name h1 {
+    font-size: 15px;
+    font-weight: 120;
+    text-align: left;
+    padding-top: 6px;
+}
+
+/* ------ body list ------ */
+
+.main_body .list {
+    padding: 25px;
+    height: 350px;
+}
+
+.main_body .list .container {
+    margin: auto;
+    width: 90%;
+}
+
+.main_body .list .container .point {
+    float: left;
+    width: 25%;
+}
+
+.main_body .list .container .point .icon {
+    background-color: rgb(3, 34, 69);
+    margin: 10px;
+    height: 110px;
+    text-align: center;
+    padding: 30px;
+}
+
+.main_body .list .container .point .icon a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+/* ------ body Post ------ */
+
+.main_body .post {
+    padding: 50px;
+    background-color: rgb(246, 246, 246);
+    height: 500px;
+}
+
+.main_body .post .total {
+    margin: auto;
+    width: 90%;
+}
+
+.main_body .post .total .latest_posts {
+    float: left;
+    width: 50%;
+}
+
+
+
+.main_body .post .total .latest_posts .container .point {
+    width: 90%;
+    margin: auto;
+}
+
+.main_body .post .total .latest_posts .button {
+    background-color: rgb(246, 246, 246);
+    text-align: right;
+    margin: 7px;
+}
+
+.main_body .post .total .latest_posts .button button {
+    width: 136px;
+    height: 52px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    float: right;
+    color: #022246;
+    background-color: #fdc800;
+    margin-top: 30px;
+    border: none;
+}
+
+.main_body .post .total .latest_posts .button p {
+    font-weight: 500;
+}
+
+.main_body .post .total .latest_posts .container .point .img {
+    float: left;
+    width: 40%;
+}
+
+.main_body .post .total .latest_posts .container .point {
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    padding: 24px 10px 8px 30px;
+}
+
+.main_body .post .total .latest_posts .container .point .img img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.main_body .post .total .latest_posts .container .point .news {
+    float: right;
+    width: 60%;
+}
+
+.main_body .post .total .latest_posts .container .point .news h1 {
+    font-size: 20px;
+    padding: 10.5px;
+}
+
+.main_body .post .total .latest_posts .container .point .news span {
+    color: rgba(0, 0, 0, 0.5);
+    padding: 10.5px;
+    font-size: 12px;
+}
+
+.main_body .post .total .latest_posts .container .point .news p {
+    color: #0f0e0e;
+    padding: 10.5px;
+    font-size: 15px;
+}
+
+.main_body .post .total .upcoming_events {
+    float: right;
+    width: 50%;
+}
+
+.main_body .post .total .upcoming_events .container {
+    display: inline-block;
+}
+
+.main_body .post .total .upcoming_events .container .button {
+    background-color: rgb(246, 246, 246);
+    text-align: right;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.main_body .post .total .upcoming_events .container .button button {
+    width: 136px;
+    height: 52px;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: 600;
+    float: right;
+    color: #022246;
+    background-color: #fdc800;
+    margin-top: 30px;
+    border: none;
+}
+
+.main_body .post .total .upcoming_events .container .point {
+    background-color: #fff;
+    width: 100%;
+    float: left;
+    padding: 24px 10px 8px 30px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.main_body .post .total .upcoming_events .container .point .card {
+    float: left;
+    margin-right: 10px;
+}
+
+.main_body .post .total .upcoming_events .container .point .card .time-top {
+    background-color: #fdc800;
+    padding: 16px 0 0 0;
+    border-radius: 6px 6px 0 0;
+}
+
+.main_body .post .total .upcoming_events .container .point .card .time-top h3,
+h4 {
+    text-align: center;
+}
+
+.main_body .post .total .upcoming_events .container .point .card .time-top,
+.time-bottom {
+    display: block;
+}
+
+.main_body .post .total .upcoming_events .container .point .card .time-bottom {
+    background-color: #002146;
+    padding: 12px 20px;
+    color: #fff;
+    border-radius: 0 0 6px 6px;
+}
+
+.main_body .post .total .upcoming_events .container .point .news {
+    line-height: 1.4;
+    padding-bottom: 6px;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.main_body .post .total .upcoming_events .container .point .news h3 {
+    line-height: 0;
+    padding-bottom: 6px;
+    padding-top: 10px;
+    font-weight: 700;
+    font-size: 20px
+}
+
+.main_body .post .total .upcoming_events .container .point .news p {
+    color: #6a6a6a;
+    padding: 10.5px;
+    font-size: 15px;
+}
+
+.main_body .post .total .upcoming_events .container .point .news span {
+    color: #033269;
+    display: inline-block;
+    padding: 10px 80px;
+}
+
+.main_body .post .total .upcoming_events .container .point .news hr {
+    width: 6%;
+    transform: rotate(90deg);
+    display: inline;
+    margin: 0 10px;
+    border: 0.5px solid gray;
+    opacity: 0.5;
+}
+
+/* ------ footer --------- */
+.footer {
+    background-color: #002146;
+    color: white;
+    padding: 60px 140px;
+    margin-top: 300px;
+}
+
+.footer .footer-info hr {
+    border: 0.5px solid gray;
+    opacity: 0.5;
+    margin-top: 300px;
+}
+
+.footer .footer-info {
+    width: 100%;
+    display: inline-block;
+    padding-bottom: 30px;
+}
+
+.footer .footer-info h3 {
+    font-size: 22px;
+    padding: 26px 0;
+}
+
+.footer .footer-info .info-contact,.info-featured,.info-quick {
+    width: 33.333%;
+    float: left;
+}
+
+.footer .footer-info .info-contact .info-contact-text {}
+
+.footer .footer-info .info-contact .info-contact-text i {
+    padding: 10px 8px 0 0;
+    color: #fdc800;
+    margin-top: 6px;
+    font-size: 14px;
+
+}
+
+.footer .footer-info .info-contact .info-contact-text p {
+    display: inline-block;
+    line-height: 1.4;
+    font-size: 17px;
+}
+
+.footer .footer-info .info-featured-text p {
+    font-size: 17px;
+    padding: 8px 0;
+}
+
+.footer .footer-info .info-quick-text p {
+    font-size: 17px;
+    padding: 8px 0;
+}
+
+.footer .footer-2020 p a {
+    font-size: 17px;
+    line-height: 1.4;
+}
+
+.footer .footer-2020 a {
+    color: #bab7b7;
+    cursor: pointer;
+}
